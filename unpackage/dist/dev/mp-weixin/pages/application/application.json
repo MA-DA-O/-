@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "业务申请",
+  "usingComponents": {
+    "me-tabs": "/components/me-tabs/me-tabs",
+    "index-list": "/components/index-list/index-list"
+  }
+}

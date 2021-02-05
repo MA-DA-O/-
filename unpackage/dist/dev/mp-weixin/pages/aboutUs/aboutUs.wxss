@@ -1,0 +1,11 @@
+
+page.data-v-f55465c4{
+	background-color: #F5F5F5;
+}
+.box-sha.data-v-f55465c4{
+	box-shadow: 0 0 16rpx #ccc;
+}
+.about-card.data-v-f55465c4{
+	padding: 30rpx 40rpx;
+}
+

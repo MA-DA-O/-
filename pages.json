@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "认证申请"
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人认证"
+			}
+		},
+		{
+			"path": "pages/enterprise/enterprise",
+			"style": {
+				"navigationBarTitleText": "企业认证"
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "申请记录"
+			}
+		},
+		{
+			"path": "pages/aboutUs/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/personalInfo/personalInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/bindPhone/bindPhone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/application/application",
+			"style": {
+				"navigationBarTitleText": "业务申请"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop":"#FFFFFF"// iOS APP真机bounce回弹区域默认灰色,建议统一重置为白色
+		// "usingComponents": {
+		// 	"ly-tree-node": "/components/ly-tree/ly-tree-node"
+		// }
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#00B9FF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/icon_4_blue.png",
+				"selectedIconPath": "static/img/icon_4.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/img/icon_2.png",
+				"selectedIconPath": "static/img/icon_2_blue.png",
+				"text": "我的"
+			}
+		]
+	}
+}

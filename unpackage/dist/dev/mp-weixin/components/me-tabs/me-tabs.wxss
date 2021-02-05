@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.evan-form-show {
+  padding: 0 30rpx;
+  background-color: #fff;
+}
+.evan-form-show .form-input {
+  font-size: 28rpx;
+  color: #333;
+  width: 70%;
+  margin-left: 30%;
+  box-sizing: border-box;
+  border: 2rpx solid #E6E6E6;
+  border-radius: 40rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0 40rpx;
+}
+.evan-form-show .form-input.textarea {
+  height: 240rpx;
+  padding: 24rpx 0;
+  text-align: left;
+}
+.evan-form-show .form-input-placeholder {
+  font-size: 28rpx;
+  color: #999;
+}
+.evan-form-show__button {
+  width: 100%;
+  height: 88rpx;
+  border-radius: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 0;
+  font-size: 36rpx;
+  color: #fff;
+  margin-top: 20rpx;
+  background-color: #2D87D5;
+}
+.evan-form-show__button::before, .evan-form-show__button::after {
+  border: none;
+}
+.evan-form-show .customize-form-item__label {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+}
+.evan-form-show .customize-form-item__radio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 16rpx;
+}
+.evan-form-show .customize-form-item__radio__text {
+  font-size: 28rpx;
+  color: #333;
+}
+.foot-btn .plain-btn {
+  color: #00B9FF;
+  border-color: #00B9FF;
+}
+.foot-btn .def-btn {
+  background-color: #00B9FF;
+}
+.foot-btn .suc-btn {
+  background-color: #67C23A;
+}
+.btn-rig {
+  text-align: right;
+}
+.btn-rig .mar-lr {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.pad-bt {
+  padding-bottom: 40rpx;
+}
+.good-list {
+  background-color: #fff;
+}
+.good-list .good-li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.good-list .good-li .good-img {
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+}
+.good-list .good-li .flex-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.good-list .good-li .flex-item .good-name {
+  font-size: 26rpx;
+  line-height: 40rpx;
+  height: 80rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+.good-list .good-li .flex-item .good-price {
+  font-size: 26rpx;
+  color: red;
+}
+.good-list .good-li .flex-item .good-sold {
+  font-size: 24rpx;
+  margin-left: 16rpx;
+  color: gray;
+}
+.charge {
+  margin: 0 50rpx;
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+  box-shadow: 0 0 16rpx #ccc;
+  margin-top: 40rpx;
+}
+.charge .charge-title {
+  padding: 16rpx 0;
+  border-bottom: 4rpx solid #F2F2F2;
+  color: #000;
+  font-weight: bold;
+}
+.charge .charge-title .charge-status {
+  color: #ccc;
+}
+.charge .charge-text {
+  padding: 16rpx 0;
+  color: #707070;
+}
+.charge .charge-text .time-text {
+  color: #ccc;
+}
+.charge .charge-text .status-text {
+  font-size: 28rpx;
+  padding: 8rpx 12rpx;
+  border-radius: 10rpx;
+}
+.good-list {
+  background-color: #fff;
+}
+.good-list .good-li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.good-list .good-li .good-img {
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+}
+.good-list .good-li .flex-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.good-list .good-li .flex-item .good-name {
+  font-size: 26rpx;
+  line-height: 40rpx;
+  height: 80rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+.good-list .good-li .flex-item .good-price {
+  font-size: 26rpx;
+  color: red;
+}
+.good-list .good-li .flex-item .good-sold {
+  font-size: 24rpx;
+  margin-left: 16rpx;
+  color: gray;
+}
+.charge {
+  margin: 0 50rpx;
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+  box-shadow: 0 0 16rpx #ccc;
+  margin-top: 40rpx;
+}
+.charge .charge-title {
+  padding: 16rpx 0;
+  border-bottom: 4rpx solid #F2F2F2;
+  color: #000;
+  font-weight: bold;
+}
+.charge .charge-title .charge-status {
+  color: #ccc;
+}
+.charge .charge-text {
+  padding: 16rpx 0;
+  color: #707070;
+}
+.charge .charge-text .time-text {
+  color: #ccc;
+}
+.charge .charge-text .status-text {
+  font-size: 28rpx;
+  padding: 8rpx 12rpx;
+  border-radius: 10rpx;
+}
+.me-tabs {
+  position: relative;
+  font-size: 28rpx;
+  color: #707070;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  background-color: #fff;
+}
+.me-tabs.tabs-fixed {
+  z-index: 990;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+}
+.me-tabs .tabs-item {
+  position: relative;
+  white-space: nowrap;
+  padding-bottom: 30rpx;
+  box-sizing: border-box;
+}
+.me-tabs .tabs-item .tab-item {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+.me-tabs .tabs-item .tab-item.active {
+  color: #00B9FF;
+}
+.me-tabs .tabs-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.me-tabs .tabs-flex .tab-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.me-tabs .tabs-scroll .tab-item {
+  display: inline-block;
+}
+.me-tabs .tabs-line {
+  z-index: 1;
+  position: absolute;
+  bottom: 30rpx;
+  width: 132rpx;
+  height: 8rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 4rpx;
+  -webkit-transition: left .3s;
+  transition: left .3s;
+  background: #00B9FF;
+}
+

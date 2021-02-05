@@ -1,0 +1,223 @@
+.evan-form-show {
+	padding: 0 30rpx;
+	background-color: #fff;
+	.form-input {
+		font-size: 28rpx;
+		color: #333;
+		width: 70%;
+		margin-left: 30%;
+		box-sizing: border-box;
+		border: 2rpx solid #E6E6E6;
+		border-radius: 40rpx;
+		height: 70rpx;
+		line-height: 70rpx;
+		padding: 0 40rpx;
+		&.textarea{
+			height: 240rpx;
+			padding: 24rpx 0;
+			text-align: left;
+		}
+	}
+
+	.form-input-placeholder {
+		font-size: 28rpx;
+		color: #999;
+	}
+
+	&__button {
+		width: 100%;
+		height: 88rpx;
+		border-radius: 8rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+		font-size: 36rpx;
+		color: #fff;
+		margin-top: 20rpx;
+		background-color: #2D87D5;
+
+		&::before,
+		&::after {
+			border: none;
+		}
+	}
+
+	.customize-form-item {
+		&__label {
+			font-size: 28rpx;
+			color: #333;
+			margin-bottom: 16rpx;
+		}
+
+		&__radio {
+			display: flex;
+			align-items: center;
+			margin-bottom: 16rpx;
+
+			&__text {
+				font-size: 28rpx;
+				color: #333;
+			}
+		}
+	}
+}
+
+// 按钮颜色
+.foot-btn{
+	.plain-btn{
+		color: #00B9FF;
+		border-color: #00B9FF;
+	}
+	.def-btn{
+		background-color: #00B9FF;
+	}
+	.suc-btn{
+		background-color: #67C23A;
+	}
+}
+.btn-rig{
+	text-align: right;
+	.mar-lr{
+		margin-left: 20rpx;
+		margin-right: 20rpx;
+	}
+}
+.pad-bt{
+	padding-bottom: 40rpx;
+}
+
+//list样式
+.good-list{
+	background-color: #fff;	
+	.good-li{
+		display: flex;
+		align-items: center;
+		padding: 20upx;
+		border-bottom: 1upx solid #eee;
+		
+		.good-img{
+			width: 160upx;
+			height: 160upx;
+			margin-right: 20rpx;
+		}
+		
+		.flex-item{
+			flex: 1;
+			
+			.good-name{
+				font-size: 26upx;
+				line-height: 40upx;
+				height: 80upx;
+				margin-bottom: 20upx;
+				overflow: hidden;
+			}
+			.good-price{
+				font-size: 26upx;
+				color: red;
+			}
+			.good-sold{
+				font-size: 24upx;
+				margin-left: 16upx;
+				color: gray;
+			}
+			
+		}
+	}
+}
+.charge{
+	margin: 0 50rpx;
+	border-radius: 20rpx;
+	padding: 0 30rpx;
+	box-shadow: 0 0 16rpx #ccc;
+	margin-top: 40rpx;
+	.charge-title{
+		padding: 16rpx 0;
+		border-bottom: 4rpx solid #F2F2F2;
+		color: #000;
+		font-weight: bold;
+		.charge-status{
+			color: #ccc;
+		}
+	}
+	.charge-text{
+		padding: 16rpx 0;
+		color: #707070;
+		.time-text{
+			color: #ccc;
+		}
+		.status-text{
+			font-size: 28rpx;
+			padding: 8rpx 12rpx;
+			border-radius: 10rpx;
+		}
+	}
+}
+
+//列表样式
+	.good-list{
+		background-color: #fff;
+		
+		.good-li{
+			display: flex;
+			align-items: center;
+			padding: 20upx;
+			border-bottom: 1upx solid #eee;
+			
+			.good-img{
+				width: 160upx;
+				height: 160upx;
+				margin-right: 20rpx;
+			}
+			
+			.flex-item{
+				flex: 1;
+				
+				.good-name{
+					font-size: 26upx;
+					line-height: 40upx;
+					height: 80upx;
+					margin-bottom: 20upx;
+					overflow: hidden;
+				}
+				.good-price{
+					font-size: 26upx;
+					color: red;
+				}
+				.good-sold{
+					font-size: 24upx;
+					margin-left: 16upx;
+					color: gray;
+				}
+				
+			}
+		}
+	}
+.charge{
+	margin: 0 50rpx;
+	border-radius: 20rpx;
+	padding: 0 30rpx;
+	box-shadow: 0 0 16rpx #ccc;
+	margin-top: 40rpx;
+	.charge-title{
+		padding: 16rpx 0;
+		border-bottom: 4rpx solid #F2F2F2;
+		color: #000;
+		font-weight: bold;
+		.charge-status{
+			color: #ccc;
+		}
+	}
+	.charge-text{
+		padding: 16rpx 0;
+		color: #707070;
+		.time-text{
+			color: #ccc;
+		}
+		.status-text{
+			font-size: 28rpx;
+			padding: 8rpx 12rpx;
+			border-radius: 10rpx;
+		}
+	}
+}
